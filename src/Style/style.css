@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*,
+::after,
+::before {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+:root {
+    --font-family:  "Manrope", sans-serif;
+    --heading-font-family:   "Raleway", sans-serif;
+}
+html {
+    overflow-y: auto;
+}
+body {
+    margin: 0;
+    font-family: var(--font-family);
+}
+h1,h2,h3{
+    font-family: var(--heading-font-family);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    padding: 0;
+    margin: 0;
+}
+ul {
+    list-style: none;
+}
+:focus-visible,
+button:focus,
+input:focus,
+select:focus {
+    outline: unset;
+    box-shadow: none;
+    outline: unset;
+}
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+input,
+select,
+textarea,
+button {
+    font-family: var(--font-family);
+}
+a,
+a:hover {
+    text-decoration: none;
+}
+.container {
+    max-width: 1310px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.common-btn {
+    background-color: #3E6EB4;
+    padding: 16px 36px;
+    font-family: var(--heading-font-family);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: center;
+    vertical-align: middle;
+    color: #FFFFFF;
+    border-radius: 160px;
+    display: inline-block;
+}
+span.gradient-text {
+    background: linear-gradient(to right, #CD6028, #3E6EB4);
+    color: transparent;
+    background-clip: text;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    text-align: center;
+    vertical-align: middle;
+}
+.gradient-text-outer{
+    display: block;
+}
+.heading-box {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.heading-box h2 {
+    font-weight: 600;
+    font-size: 48px;
+    letter-spacing: -1px;
+    color: #141219;
+}
+.wrapper {
+    overflow: hidden;
+}
+footer {
+    background-color: #3E6EB4;
+    padding: 80px 0;
+    position: relative;
+    z-index: 1;
+}
+.footer-inner p {
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.footer-inner {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    max-width: 503px;
+
+}
